@@ -6,62 +6,80 @@
     <title>FAQ</title>
     <style>
         body {
+            background-color: rgb(184, 184, 240);
+            font-family: 'Times New Roman', Times, serif;
             text-align: center;
-            background-color: rgb(171, 171, 235);
             margin: 0;
-            font-family: Arial, sans-serif;
         }
         header {
-            display: flexbox;
-            background-color: rgb(171, 171, 235);
+            justify-content: space-between;
+            background-color: rgb(184, 184, 240);
+            align-items: center;
             color: white;
             padding: 20px;
+            display: flex;
         }
-        nav ul {
+        header ul {
             list-style: none;
             padding: 0;
         }
-        nav ul li {
-            color: black;
-            display: inline;
+        header ul li {
+            text-decoration: none;
             margin-right: 20px;
+            display: inline;
+            color: black;
         }
-        .conteudo {
-            border: 0px solid black;
-            border-radius: 25px 25px 0px 0px;
-            background-color: white;
-            padding: 20px;
-            min-height: 150px; 
-            max-width: 1200px;
-            margin: auto;
+        a{
+            text-decoration: none;
+            color: black;
         }
-
         footer {
             background-color: black;
-            color: white;
             text-align: center;
-            padding: 10px;
             position: relative;
-            bottom: 0;
+            color: white;
+            padding: 10px;
             width: 100%;
+            bottom: 0;
+        }
+        button{
+            padding: 10px;
+            margin: 2px 75px;
+        }
+        .conteudo {
+            border-radius: 25px 25px 0px 0px;
+            border: 0px solid black;
+            background-color: white;
+            min-height: 150px; 
+            max-width: 1200px;
+            margin: 0px 10px;
+            display: grid;
+            padding: 20px;
+        }
+        .logo{
+            font-weight: 400;
+            font-size: 20px;
+            color: black;
         }
     </style>
 </head>
 <body>
     <header>
-        <nav>
-            <h1>FAQ</h1>
+            <h1 class="logo">DISTRO</h1>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#">Sobre nós</a></li>
+                <li><a href="#">Empresas Parceiras</a></li>
+                <li><a href="#">FAQ</a></li>
             </ul>
-        </nav>
     </header>
     <div class="conteudo">
-        <h2>teste</h2>
-        <p>Esta é uma introdução ao conteúdo.</p>
+        <h2>Perguntas Frequentes</h2>
+        <button>O que é o site Distro?</button>
+        <button>Como funciona a distribuição de abuttonmentos?</button>
+        <button>Preciso fazer reserva para pegar comida em um ponto de coleta?</button>
+        <button>Os abuttonmentos são seguros para consumo?</button>
+        <button>Onde estão locabuttonzados os pontos de coleta?</button>
+        <button>Como um restaurante pode se tornar parceiro da Distro?</button>
     </div>
     <footer>
         <p>Distro</p>
