@@ -1,0 +1,22 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+nav a {
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    margin-left: 50px;
+}
+
+nav a:last-child {
+    margin-right: 90px;
+}
+
+.link-home {
+    margin-left: 90px;
+    font-size: 32px;
+}
