@@ -55,8 +55,8 @@ export default function Partners() {
                         </tr>
                     </thead>
                     <tbody>
-                        {partnersData.map((partner, index) => (
-                            <tr key={index}>
+                        {partnersData.map((partner) => (
+                            <tr>
                                 <td>{partner.name}</td>
                                 <td>{partner.address}</td>
                                 <td className="date">{partner.date}</td>
