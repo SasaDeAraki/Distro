@@ -4,7 +4,6 @@ footer {
     align-items: center;
     height: 140px;
     width: 100%;
-    display: flex;
     background-color: #333333;
     color: #FFFFFF;
 }

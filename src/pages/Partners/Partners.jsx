@@ -20,32 +20,52 @@ export default function Partners() {
             date: "25/08/2024"
         },
         {
-            name: " ",
-            address: " ",
-            date: " "
+            name: "Sabores do Campo",
+            address: "Rua não sei o q numero n sei q la...",
+            date: "25/08/2024"
         },
         {
-            name: " ",
-            address: " ",
-            date: " "
+            name: "Sabores do Campo",
+            address: "Rua não sei o q numero n sei q la...",
+            date: "25/08/2024"
         },
         {
-            name: " ",
-            address: " ",
-            date: " "
+            name: "Sabores do Campo",
+            address: "Rua não sei o q numero n sei q la...",
+            date: "25/08/2024"
         },
         {
-            name: " ",
-            address: " ",
-            date: " "
+            name: "Sabores do Campo",
+            address: "Rua não sei o q numero n sei q la...",
+            date: "25/08/2024"
         },
+        {
+            name: "Sabores do Campo",
+            address: "Rua não sei o q numero n sei q la...",
+            date: "25/08/2024"
+        },
+        {
+            name: "Sabores do Campo",
+            address: "Rua não sei o q numero n sei q la...",
+            date: "25/08/2024"
+        },
+        {
+            name: "Sabores do Campo",
+            address: "Rua não sei o q numero n sei q la...",
+            date: "25/08/2024"
+        },
+        {
+            name: "Sabores do Campo",
+            address: "Rua não sei o q numero n sei q la...",
+            date: "25/08/2024"
+        }
     ];
 
     return (
         <>
             <NavBar />
             <div className="container">
-                <h1>Quer se tornar um parceiro? <a href="">Nos envie um email!</a></h1>
+                <h1>Quer se tornar um parceiro? <a href="mailto:s.batista.viana@gmail.com">Nos envie um email!</a></h1>
                 <table className="partners-table">
                     <thead>
                         <tr>

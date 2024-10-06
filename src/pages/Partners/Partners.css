@@ -27,7 +27,7 @@
     text-align: left;
 }
 
-.partners-table td:hover {
+.partners-table tbody > tr:hover {
     background-color: #f9f9f9;
 }
 
