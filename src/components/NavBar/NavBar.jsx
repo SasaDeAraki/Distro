@@ -5,13 +5,13 @@ export default function NavBar() {
     return (
         <>
             <nav>
-                <Link to='#' className='link-home'>DISTRO</Link>
+                <Link to='/' className='link-home'>DISTRO</Link>
                 <div>   
                     <Link to='#'>Sobre nós</Link>
                     <Link to='#'>Parceiros</Link>
-                    <Link to='#'>FAQ</Link>
+                    <Link to='/faq'>FAQ</Link>
                 </div>
             </nav>
         </>
-    )
+    )   
 }
