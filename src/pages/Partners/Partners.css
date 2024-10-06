@@ -1,0 +1,36 @@
+.container {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.partners-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.partners-table tr{
+    width: 25px;
+    border: 2px solid #020202;
+    text-align: left;
+}
+
+.partners-table td{
+    padding: 10px 25px;
+}
+
+.partners-table th {
+    color: #636363;
+    padding: 5px 20px;
+    text-align: left;
+}
+
+.partners-table td:hover {
+    background-color: #f9f9f9;
+}
+
+.date{
+    text-align: center;
+}

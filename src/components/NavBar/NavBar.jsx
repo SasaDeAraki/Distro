@@ -8,7 +8,7 @@ export default function NavBar() {
                 <Link to='/' className='link-home'>DISTRO</Link>
                 <div>   
                     <Link to='#'>Sobre nós</Link>
-                    <Link to='#'>Parceiros</Link>
+                    <Link to='/partners'>Parceiros</Link>
                     <Link to='/faq'>FAQ</Link>
                 </div>
             </nav>
