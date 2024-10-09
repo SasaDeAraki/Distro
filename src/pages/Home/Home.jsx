@@ -29,7 +29,7 @@ export default function Home() {
                 </div>
                 <MapComponent />
             </div>
-            <FooterContent />
+            <FooterContent  />
         </>
     )
 }
