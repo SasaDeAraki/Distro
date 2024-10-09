@@ -1,0 +1,44 @@
+.intro-container-sobre {
+    background-color: #CAFBFF; 
+    height: 470px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.intro-texto-sobre {
+    margin-left: 250px;
+    margin-bottom: 50px; 
+    margin-top: -103px;
+    padding: 0; 
+    width: 100%; 
+}
+
+.conteudo-sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-family: "Lato", sans-serif;
+    max-width: 100ch;
+    font-size: 24px;
+     
+}
+
+.container-card {
+   display: flex;
+}
+
+.p {
+    font-family: "Lato", sans-serif;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    color: #58979C;
+    font-size: 50px;
+    margin: 0; 
+}
