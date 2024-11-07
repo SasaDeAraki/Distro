@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import FooterContent from "../../components/FooterContent/FooterContent";
 import NavBar from "../../components/NavBar/NavBar";
 import './FAQ.css';
+import arrowDown from "../../images/arrow-down.png"
 
 export default function FAQ() {
     const [visibleIndex, setVisibleIndex] = useState(null);
@@ -32,7 +33,7 @@ export default function FAQ() {
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                             <span>{item.question}</span>
                             <img 
-                                src="src/images/arrow-down.png" 
+                                src={arrowDown}
                                 alt="arrow-icon" 
                                 className={`arrow-icon ${visibleIndex === index ? "open" : ""}`} 
                             />
