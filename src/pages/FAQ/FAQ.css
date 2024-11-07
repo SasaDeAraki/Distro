@@ -10,7 +10,7 @@
     cursor: pointer;
     margin: 15px 0;
     width: 100%;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.8s ease;
 }
 
 .questions:hover {
@@ -32,7 +32,7 @@
     color: #555;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 1s ease;
+    transition: max-height 0.8s ease;
 }
 
 .expanded .answer {

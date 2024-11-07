@@ -38,7 +38,7 @@ export default function MapComponent() {
   return (
     <div style={{display: 'flex', justifyContent: 'center' }}>
       {/* Define o container do mapa */}
-      <div id="map" style={{ height: "450px", width: "45%", borderRadius: '10px',  border: '1px solid black' }} />
+      <div id="map" style={{ height: "450px", width: "45%", borderRadius: '0px',  border: '1px solid black' }} />
     </div>
   );
 };
