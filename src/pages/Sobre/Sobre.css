@@ -1,17 +1,15 @@
 .intro-container-sobre {
     background-color: #CAFBFF; 
-    height: 470px; 
     display: flex; 
     flex-direction: column; 
     justify-content: center;
     align-items: center; 
+    padding: 30px 0;
 }
 
 .intro-texto-sobre {
     margin-left: 250px;
-    margin-bottom: 50px; 
-    margin-top: -103px;
-    padding: 0; 
+    margin-bottom: 30px;
     width: 100%; 
 }
 

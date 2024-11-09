@@ -12,8 +12,8 @@ export default function FAQ() {
     };
 
     const questions = [
-        { question: "O que é o site Distro?", answer: "O site Distro é uma plataforma que facilita a distribuição de alimentos para quem precisa." },
-        { question: "Como funciona a distribuição de alimentos?", answer: "A distribuição ocorre em diversos pontos de coleta, onde os alimentos são disponibilizados gratuitamente." },
+        { question: "O que é o site Distro?", answer: "O site Distro é uma plataforma que facilita a distribuição de alimentos a quem precisa." },
+        { question: "Como funciona a distribuição de alimentos?", answer: "A distribuição ocorre em diversos pontos de coleta, onde os alimentos são disponibilizados por preços acessíveis." },
         { question: "Preciso fazer reserva para pegar comida em um ponto de coleta?", answer: "Não é necessário reserva, mas recomendamos conferir a disponibilidade no ponto de coleta." },
         { question: "Os alimentos são seguros para consumo?", answer: "Sim, todos os alimentos passam por verificações de segurança antes da distribuição." },
         { question: "Onde estão localizados os pontos de coleta?", answer: "Os pontos de coleta estão espalhados em várias regiões. Verifique no nosso site o ponto mais próximo." },

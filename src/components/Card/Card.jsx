@@ -1,13 +1,12 @@
 import './Card.css'
-import holder from  '../../images/holder.jpg'
-export default function Card() {
+export default function Card({ imagem, nome }) {
     return (
         <>
         <div className='container-card'>
             <div className="card">
-                <img src={holder} style={{width:300}}/>
+                <img src={ imagem } style={{width:300}}/>
                 <div className="container">
-                    <h4 className='h4'><b>Larissa</b></h4>
+                    <h4><b>{ nome }</b></h4>
                 </div>
             </div>
         </div>
