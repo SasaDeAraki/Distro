@@ -13,6 +13,7 @@ export default function Home() {
                 <div className='intro-texto'>
                     <h3>Bem vindo</h3>
                     <h3>à Distro!</h3>
+                    <a href='https://youtu.be/mWQgj9XVRIg'>Link para o vídeo pitch</a>
                 </div>
                 <div className='intro-imagem'>
                     <img src={ principal } alt="" />

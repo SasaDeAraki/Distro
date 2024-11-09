@@ -22,6 +22,12 @@
     height: 100%;
 }
 
+.intro-texto a {
+    font-family: "Montserrat", sans-serif;
+    color: #602121;
+    font-weight: 600;
+}
+
 .intro-imagem {
     margin-left: auto;
     margin-right: 125px;
